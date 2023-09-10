@@ -1,0 +1,85 @@
+.container-two {
+    height: 400px;
+    position: relative;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+
+.card {
+    font-size: small;
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+}
+
+.card-two {
+    font-size: small;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: left;
+}
+
+.card-two-container {
+    display: flex;
+    position: relative;
+    top: 0;
+}
+
+.rel-one {
+    margin-top: 100px;
+}
+
+.rel-two {
+    margin-top: 20px;
+}
+
+.container-three {
+    height: 400px;
+    position: relative;
+    display: flex;
+    text-align: left;
+    padding-top: 0;
+    width: 100%;
+    justify-content: space-around;
+
+
+}
+
+.text-section-three {
+    width: 400px;
+    word-wrap: break-word;
+
+}
+
+.number {
+    text-align: right;
+}
+
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid #a56d70;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid #a56d70;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 10px;
+
+
+    /* Change color as needed */
+}
